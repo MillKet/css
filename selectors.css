@@ -16,7 +16,10 @@ header li
 }
 /* Ensure that the navigation is semantically marked as such (i.e. wrap it in the correct HTML tag). */
 /* Any text in an element with class "disabled" should be colored grey, unless it is an attribute of an anchor tag. If it is an attribute of an anchor tag, it should be colored purple. */
-
+.disabled
+{
+    color: gray;
+}
 /* Any text inside an element with a class of "active" should be colored yellow. */
 /* Section elements should be contained within an article element. */
 /* There are two missing closing tags in this document. Make sure you add them back in. */
